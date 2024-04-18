@@ -13,7 +13,7 @@ public class Loginpage {
 		driver.get("http://rmgtestingserver/domain/Online_Banking_System/staff_login.php");
 		
 		
-		//Login is successful
+		//Login is successfull and created
 	}
 	
 }
