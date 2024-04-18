@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
+  <parameter name="url" value="https://trello.com/en/login"></parameter>
+  <parameter name="email" value="ishaikn9@gmail.com"></parameter>
+  <parameter name="password" value="Aairah@123"></parameter>
+  <parameter name="title" value="Software Skills"></parameter>
+  <parameter name="skill01" value="SQL"></parameter>
+  <parameter name="skill02" value="JAVA"></parameter>
+  <parameter name="skill03" value="SELENIUM"></parameter>
+  <parameter name="skill04" value="MANUAL"></parameter>
+  <parameter name="cardTitle1" value="DDL"></parameter>
+  <parameter name="cardTitle2" value="DML"></parameter>
+  <parameter name="cardTitle3" value="DQL"></parameter>
+  <parameter name="cardTitle4" value="OOPS"></parameter>
+  <parameter name="cardTitle5" value="WEBDRIVER"></parameter>
+  <parameter name="cardTitle6" value="LOCATORS"></parameter>
+  <parameter name="cardTitle7" value="SMOKE"></parameter>
+  <parameter name="cardTitle8" value="FUNCTIONAL"></parameter>
+  <parameter name="cardTitle9" value="REGGRESSION"></parameter>
+  <parameter name="cardTitle10" value="ADHOC"></parameter>
+    <classes>
+      <class name="TestNg.TrelloEndtoEndScript"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
