@@ -20,6 +20,6 @@ public class FileuploadPopup {
 		driver.findElement(By.id("submitbutton")).click();	
 	}
 	public void filedownload() {
-		//stya
+		//popoup again
 	}
 }
